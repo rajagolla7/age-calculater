@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Human Age Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Human Age Calculator</h1>
+        <form id="ageForm">
+            <input type="text" id="name" placeholder="Enter your name" required>
+            <input type="date" id="dob" required>
+            <button type="submit">Calculate & Save</button>
+        </form>
+        <h3 id="result"></h3>
+        <h2>Saved Data</h2>
+        <ul id="dataList"></ul>
+    </div>
+
+    <!-- Firebase SDKs -->
+    <script type="module" src="script.js"></script>
+
+</body>
+</html>
